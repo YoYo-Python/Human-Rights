@@ -2,4 +2,6 @@
 
 This is the website developed by Youssef Waleed Ibrahim to present it to the class on Dec 8 of 2021
 
-The Netlify Link is 
+The Netlify Link is .......
+
+https://human-rights.netlify.app/
