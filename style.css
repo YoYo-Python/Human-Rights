@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+
+html {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(182, 182, 217, 1) 0%, rgba(119, 193, 208, 1) 100%);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.title {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    font-family: 'PlayFair Display', serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    background-color: #eee;
+    width: 50vw;
+    height: 25vh;
+    transition: border-radius 0.5s, text-decoration 1s;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 18px 8px 38px rgb(0, 0, 0);
+}
+
+.title:hover {
+    border-radius: 80px;
+    text-decoration: underline;
+
+}
+
+.content {
+    position: relative;
+    display: flex;
+    /* establish flex container */
+    flex-direction: column;
+    /* make main axis vertical */
+    justify-content: center;
+    /* center items vertically, in this case */
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+    left: 20%;
+    font-size: 26px;
+    margin: 8px;
+    font-family: 'Readex Pro';
+}
+
+.human-rights {
+    position: absolute;
+    float: right;
+    right: 2%;
+    top: 5%;
+    width: 10%;
+    height: auto;
+}
+
+.gallery img {
+    float: right;
+    width: 45%;
+    margin: 5px;
+    padding: 0px;
+    height: 450px;
+    transition: all 1s;
+}
+
+.gallery img:hover {
+    border-radius: 20px;
+    border: 10px solid black
+}
+
+@media only screen and (min-height:1024px) {
+    .content {
+        position: relative;
+        display: flex;
+        /* establish flex container */
+        flex-direction: column;
+        /* make main axis vertical */
+        justify-content: center;
+        /* center items vertically, in this case */
+        align-items: center;
+        width: 70%;
+        height: 100%;
+        line-height: 45px;
+        text-align: center;
+        left: 20%;
+        font-size: 26px;
+        margin: 8px;
+    }
+}
+
+#dignity, #equality, #respect, #fairness {
+    position: relative;
+    display: flex;
+    /* establish flex container */
+    flex-direction: column;
+    /* make main axis vertical */
+    justify-content: center;
+    /* center items vertically, in this case */
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+    left: 20%;
+    font-size: 26px;
+    margin: 8px;
+    font-family: 'Readex Pro';
+}
+
+hr {
+    border-color: black;
+}
+
+span {
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.human-rights:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.end {
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    color: white;
+    border-radius: 60px;
+    transition: all 1s;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+
+
+}
+
+.name {
+    font-family: 'Readex Pro';
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.end:hover {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    border-radius: 60px;
+    transition: all 1s;
+    box-shadow: 15px 8px 6px rgba(0, 0, 0, 0.336);
+    margin-bottom: 20px;
+}
+
+.end h2 {
+    margin: 20px;
+    font-weight: 300;
+    font-size: 46px;
+
+}
+
+.end p {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
