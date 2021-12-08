@@ -199,13 +199,14 @@ span {
 .end:hover {
     background-color: rgb(255, 255, 255);
     height: 300px;
-    width: 700px;
+    width: 400px;
     margin: auto;
     color: rgb(0, 0, 0);
     border-radius: 60px;
     transition: all 1s;
-    box-shadow: 15px 8px 6px rgba(0, 0, 0, 0.336);
+    box-shadow: 15px 8px 2px rgb(0, 0, 0);
     margin-bottom: 20px;
+
 }
 
 .end h2 {
