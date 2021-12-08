@@ -199,7 +199,7 @@ span {
 .end:hover {
     background-color: rgb(255, 255, 255);
     height: 300px;
-    width: 400px;
+    width: 700px;
     margin: auto;
     color: rgb(0, 0, 0);
     border-radius: 60px;
@@ -211,13 +211,15 @@ span {
 
 .end h2 {
     margin: 20px;
+    padding-top:30px;
     font-weight: 300;
     font-size: 46px;
 
 }
 
 .end p {
-    margin: 10px;
+    padding-left:30px
+    
 }
 
 a {
@@ -228,4 +230,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (min-height: 1440px) {
+    html{
+        font-size:12px;
+    }
 }
