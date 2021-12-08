@@ -84,8 +84,8 @@ html {
         justify-content: center;
         /* center items vertically, in this case */
         align-items: center;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         line-height: 45px;
         text-align: center;
         left: 20%;
