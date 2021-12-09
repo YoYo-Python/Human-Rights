@@ -9,11 +9,25 @@ html {
     box-sizing: border-box;
 }
 
+.navbar{
+    background: #eee;
+    width:70vw;
+    height:7vh;
+    margin-bottom:5vh;
+    border-radius:20em ;
+}
+.navbar li{
+    list-style: none;
+    font-size: 2em;
+    font-family: Poppins;
+    display:inline;
+    padding: 1.5em;
+}
+
 .title {
     display: grid;
     justify-content: center;
     align-content: center;
-
     font-family: 'PlayFair Display', serif;
     font-weight: 900;
     letter-spacing: 2px;
@@ -178,8 +192,8 @@ span {
 
 .end {
     background-color: rgb(0, 0, 0);
-    height: 300px;
-    width: 700px;
+    height: 45vh;
+    width: 35vw;
     margin: auto;
     color: white;
     border-radius: 60px;
@@ -198,8 +212,8 @@ span {
 
 .end:hover {
     background-color: rgb(255, 255, 255);
-    height: 300px;
-    width: 700px;
+    height: 45vh;
+    width: 35vw;
     margin: auto;
     color: rgb(0, 0, 0);
     border-radius: 60px;
@@ -218,7 +232,7 @@ span {
 }
 
 .end p {
-    padding-left: 30px
+    margin-left: 13em;
 }
 
 a {
@@ -241,7 +255,8 @@ a:hover {
     html {
         font-size: 12px;
     }
-    .end{
+
+    .end {
         visibility: hidden;
     }
 }
