@@ -15,6 +15,7 @@ html {
     height:7vh;
     margin-bottom:5vh;
     border-radius:20em ;
+    border:3px solid black;
 }
 .navbar li{
     list-style: none;
