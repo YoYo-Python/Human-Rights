@@ -9,19 +9,20 @@ html {
     box-sizing: border-box;
 }
 
-.navbar{
+#nav {
     background: #eee;
-    width:70vw;
-    height:7vh;
-    margin-bottom:5vh;
-    border-radius:20em ;
-    border:3px solid black;
+    width: 70vw;
+    height: 7vh;
+    margin-bottom: 5vh;
+    border-radius: 20em;
+    border: 3px solid black;
 }
-.navbar li{
+
+#nav li {
     list-style: none;
     font-size: 2em;
     font-family: Poppins;
-    display:inline;
+    display: inline;
     padding: 1.5em;
 }
 
@@ -137,6 +138,18 @@ span {
     font-size: 46px;
 }
 
+a {
+    color: rgb(8, 69, 73);
+}
+
+a:visited {
+    color: rgb(177, 46, 46);
+}
+
+a:hover {
+    color: rgb(32, 107, 63);
+}
+
 .human-rights:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
@@ -193,7 +206,7 @@ span {
 
 .end {
     background-color: rgb(0, 0, 0);
-    height: 45vh;
+    height: 47vh;
     width: 35vw;
     margin: auto;
     color: white;
